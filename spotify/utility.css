@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color:#121212;
+    color: white;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 3px;
+}
+.m-2{
+    margin: 2px;
+}
+.p-1{
+     padding-top:15px ;
+}
+/* Works in modern browsers (Chrome, Edge, and Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background for track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #888); /* Smooth gradient */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* Inner padding via border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #666, #aaa); /* Slightly lighter on hover */
+}
+
+/* Optional: for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #666 #1e1e1e; /* thumb color and track color */
+}
